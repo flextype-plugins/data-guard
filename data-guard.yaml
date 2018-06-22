@@ -1,0 +1,13 @@
+name: Data Guard
+version: 1.0.0
+description: "Data Guard plugin protects your website from the content copying."
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/data-guard
+bugs: https://github.com/flextype-plugins/data-guard/issues
+license: MIT
+
+# Plugin settings
+enabled: true
