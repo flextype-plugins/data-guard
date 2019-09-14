@@ -2,7 +2,7 @@
 
 namespace Flextype;
 
-$flextype->emitter->addListener('onThemeTail', function() {
+$flextype['emitter']->addListener('onThemeTail', function() {
     
     // Load jQuery if it is not loaded yet
     echo ('<script>window.jQuery || document.write(\'<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"><\/script>\')</script>');
