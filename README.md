@@ -1,6 +1,6 @@
 # Data Guard Plugin for [Flextype](http://flextype.org/)
-![version](https://img.shields.io/badge/version-2.1.0-brightgreen.svg?style=flat-square)
-![Flextype](https://img.shields.io/badge/Flextype-0.9.4-green.svg?style=flat-square)
+![version](https://img.shields.io/badge/version-2.2.0-brightgreen.svg?style=flat-square)
+![Flextype](https://img.shields.io/badge/Flextype-0.9.6-green.svg?style=flat-square)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 Data Guard plugin protects your website from the content copying.
