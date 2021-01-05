@@ -1,8 +1,17 @@
 <?php
 
-namespace Flextype;
+declare(strict_types=1);
 
-$flextype['emitter']->addListener('onThemeTail', function() {
+/**
+ * @link https://flextype.org
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Flextype\Plugin\DataGuard;
+
+flextype('emitter')->addListener('onThemeTail', function() {
 
     // Load jQuery if it is not loaded yet
     echo ('<script>window.jQuery || document.write(\'<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"><\/script>\')</script>');
